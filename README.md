@@ -61,7 +61,7 @@ Angular is my favourite frontend framework, i use it every day and i like the wa
 
 ## .NET
 
-.NET is my backend language of choice, it's fast, easy to use and has a great community. I used the .NET 6 framework (the latest LTS version). The API is fully asynchronous and easy to understand (i hope). I used the latest version of Entity Framework (code-first approach) together with LINQ to manage the Database i choose (Planetscale).
+.NET is my backend language of choice, it's fast, easy to use and has a great community. I used the .NET 6 framework (the latest LTS version). The API is fully asynchronous and easy to understand (i hope). I used the latest version of Entity Framework (code-first approach) together with LINQ to manage the Database i chose (Planetscale).
 
 ## PlanetScale
 
@@ -73,11 +73,11 @@ I also choose it beacuse it has a free tier, which is incredibile for the featur
 
 ## Redis
 
-What not throw a cache in there right? Redis is the most popular in-memory data store, you can find it in basically every cloud provider (AWS has Elasticache, Azure has Azure Cache for Redis and so on), i decide to host it myself, it lives in a Docker container and has persistence strategy, if the container ever goes down (which it will), you won't lose any data, pretty cool.
+Why not throw a caching layer in there right? Redis is the most popular in-memory data store, you can find it in basically every cloud provider (AWS has Elasticache, Azure has Azure Cache for Redis and so on), i decided to host it myself, it lives in a Docker container and has persistence strategy, if the container ever goes down (which it will), you won't lose any data, pretty cool.
 
 ## RedisInsight
 
-Redis is a Redis GUI provided by Redis, it has cool feature like real time monitoring of used memory and so on, a CLI, and Redis modules,it's pretty cool. Guess what, it's hosted in a Docker container.
+Redis is a Redis GUI provided by Redis, it has cool feature like real time monitoring of used memory and so on, a CLI and Redis modules, it's pretty cool. Guess what, it's hosted in a Docker container.
 
 ## Cloudinary
 
@@ -93,7 +93,7 @@ SendGrid offers an [C# SDK](https://github.com/sendgrid/sendgrid-csharp) to send
 
 ## Storage
 
-Everyone needs a storage right? I choose Azure Blob Storage as that is what i'm familiar with.
+Everyone needs a storage right? I chose Azure Blob Storage as that is what i'm familiar with.
 
 # License
 
